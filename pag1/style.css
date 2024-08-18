@@ -3,8 +3,11 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    
 }
-
+html, body {
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
     color: white
@@ -134,4 +137,20 @@ main div button:hover{
     color: #122611;
     transition: 0.4s;
 
+}
+[data-anime]{
+    opacity: 1;
+    transition: 1s;
+    overflow: hidden;
+    transform: translatex(2vw);
+}
+[data-anime="right"]{
+   
+    opacity: 0;
+    transition: 1s;
+}
+[data-anime].animation{
+    opacity: 1;
+    transform: translatex(0vw);
+    transition: 1s;
 }
