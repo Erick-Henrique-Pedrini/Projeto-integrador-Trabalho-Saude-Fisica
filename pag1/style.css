@@ -89,7 +89,7 @@ h1.titulo{
     z-index: 2;
     top: 1vw;
     font-size: 3vw;
-    margin-left: 47.5vw;
+    margin-left: 45vw;
     color: #daf2b6;
 }
 p.escrita{
@@ -138,14 +138,9 @@ main div button:hover{
     transition: 0.4s;
 
 }
-[data-anime]{
-    opacity: 1;
-    transition: 1s;
-    overflow: hidden;
-    transform: translatex(2vw);
-}
+
 [data-anime="right"]{
-   
+    transform: translatex(2vw);
     opacity: 0;
     transition: 1s;
 }
