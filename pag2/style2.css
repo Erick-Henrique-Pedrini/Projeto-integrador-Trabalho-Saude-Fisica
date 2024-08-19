@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: calc(15px + 1vw);
+    list-style: none;
+}
+nav{
+display: flex;
+justify-content: center;
+justify-items: center;
+position: relative;
+
+}
+img.logo{
+height: 10vw;
+position: relative;
+z-index: 2;
+right: 10vw;
+bottom: 1vw;
+
+}
+ul.pags{
+display: flex;
+position: relative;
+right: 13vw;
+
+}
+ul.contas{
+display: flex;
+position: relative;
+left: 14vw;
+}
+ul.pags li{
+position: relative;
+padding: 10px;
+text-align: end;
+z-index: 2;
+}
+ul.contas li{
+position: relative;
+padding: 5px;
+padding-left: 10px;
+z-index: 2;
+
+}
+img{
+position: fixed;
+z-index: 1;
+height: 100%;
+width: 100%;
+bottom: 1vw;
+filter: blur(2px);
+filter: brightness(0.7);

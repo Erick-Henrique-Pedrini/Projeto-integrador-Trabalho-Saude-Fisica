@@ -16,4 +16,3 @@ window.addEventListener('scroll', function(){
     animeScroll();
 })
 
-const teste = 0 
