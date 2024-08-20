@@ -1,4 +1,5 @@
-const target = document.querySelectorAll('[data-anime]');
+
+const target = document.querySelectorAll('[data-anime="right"]');
 const animationClass = "animation";
 function animeScroll() {
     const windowTop1 = window.pageYOffset + 100;

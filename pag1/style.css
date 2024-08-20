@@ -1,54 +1,170 @@
-*{
-        margin: 0px;
-        padding: 0px;
-        font-size: calc(15px + 1vw);
-        list-style: none;
-    }
-nav{
+* {
+    margin: 0;
+    padding: 0;
+    font-size: calc(15px + 1vw);
+    list-style: none;
+    overflow-x: hidden;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 100px;
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
+}
+
+.nav-left,
+.nav-center,
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left {
+    justify-content: flex-start;
+}
+
+.nav-center {
     justify-content: center;
-    justify-items: center;
-    position: relative;
-    
+    flex-grow: 1;
 }
-img.logo{
+
+.nav-right {
+    justify-content: flex-end;
+}
+
+ul.pags, ul.contas {
+    display: flex;
+}
+
+ul.pags li,
+ul.contas li {
+    padding: 0 10px;
+    font-family: "Quicksand", sans-serif;
+}
+
+img.logo {
     height: 10vw;
-    position: relative;
-    z-index: 2;
-    right: 10vw;
-    bottom: 1vw;
- 
-}
-ul.pags{
-    display: flex;
-    position: relative;
-    right: 13vw;
- 
-}
-ul.contas{
-    display: flex;
-    position: relative;
-    left: 14vw;
-}
-ul.pags li{
-    position: relative;
-    padding: 10px;
-    text-align: end;
-    z-index: 2;
-}
-ul.contas li{
-    position: relative;
-    padding: 5px;
-    padding-left: 10px;
-    z-index: 2;
+    margin-right: 14vw;
+    margin-top: 1vw;
     
 }
-img{
-    position: fixed;
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    bottom: 1vw;
-    filter: blur(2px);
-    filter: brightness(0.7);
+h1.titulo{
+    font-family: "Quicksand", sans-serif;
+    z-index: 2;
+    position: relative;
+    
 }
+p.escrita{
+    z-index: 2;
+    position: relative;
+    margin: 10vw 0px 0px;
+    font-size: calc(20px + 1vw);
+}
+img.fundo{
+    position: absolute;
+    bottom: 1vw;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+ul.contas button {
+    height: 60px;
+    width: 180px;
+    border-radius: 15px;
+    border: none;
+    background-color: #5D3D73;
+    color: white;
+    transition: transform 0.3s ease;
+    font-size: 1.7vw;
+}
+ul.contas button:hover {
+    transform: scale(1.1); 
+    background-color: #4a295f;
+}
+main div.container{
+    margin-top: 2vw;
+    background-color: #4a295f;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    
+
+    position: relative;
+    height: 60vw;
+    z-index: 3;
+
+    
+}
+h2.titulo2{
+    z-index: 3;
+    position: relative;
+    text-align: end;
+    margin: 18vw 25vw 4vw;
+    color: white;
+
+
+
+}
+p.escrita2{
+    margin-top: -13vw;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    margin: 0vw 0vw 7vw 44vw;
+    color: white;
+    
+}
+main button{
+    margin: -0vw 0vw 0vw 66vw;
+    height: 80px;
+    width: 200px;
+    border-radius: 15px;
+    border: solid white 1px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+
+[data-anime="right"]{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: 1s;
+}
+[data-anime="right"].animation{
+    transition: 1s;
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.paleta-roxa-e-laranja-1-hex { color: #D95970; }
+.paleta-roxa-e-laranja-2-hex { color: #BC6BF2; }
+.paleta-roxa-e-laranja-3-hex { color: #5D3D73; }
+.paleta-roxa-e-laranja-4-hex { color: #F28F38; }
+.paleta-roxa-e-laranja-5-hex { color: #F27C38; }
+
+/* Color Theme Swatches in RGBA */
+.paleta-roxa-e-laranja-1-rgba { color: rgba(216, 89, 112, 1); }
+.paleta-roxa-e-laranja-2-rgba { color: rgba(188, 107, 242, 1); }
+.paleta-roxa-e-laranja-3-rgba { color: rgba(93, 61, 114, 1); }
+.paleta-roxa-e-laranja-4-rgba { color: rgba(242, 142, 56, 1); }
+.paleta-roxa-e-laranja-5-rgba { color: rgba(242, 124, 56, 1); }
+
+/* Color Theme Swatches in HSLA */
+.paleta-roxa-e-laranja-1-hsla { color: hsla(349, 62, 60, 1); }
+.paleta-roxa-e-laranja-2-hsla { color: hsla(275, 83, 68, 1); }
+.paleta-roxa-e-laranja-3-hsla { color: hsla(275, 30, 34, 1); }
+.paleta-roxa-e-laranja-4-hsla { color: hsla(28, 87, 58, 1); }
+.paleta-roxa-e-laranja-5-hsla { color: hsla(21, 87, 58, 1); }
