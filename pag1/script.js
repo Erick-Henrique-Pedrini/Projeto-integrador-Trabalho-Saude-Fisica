@@ -1,4 +1,4 @@
-
+/*animação*/
 const target = document.querySelectorAll('[data-anime="right"]');
 const animationClass = "animation";
 function animeScroll() {
@@ -16,4 +16,3 @@ function animeScroll() {
 window.addEventListener('scroll', function(){
     animeScroll();
 })
-
