@@ -101,6 +101,7 @@
    height: 100%;
    display: block;
    position: relative;
+   z-index: 1;
  }
  .secpag1conteudo{
    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
@@ -110,24 +111,37 @@
    justify-content: space-between;
    background-color: #BC6BF2;
    position: relative;
-  z-index: 2;
-  bottom: 500px;
+   z-index: 2;
+   bottom: 25vw;
   overflow: hidden;
  }
  .secpag1conteudo img{
    z-index: 1;
    position: relative;
-   height: 400px;
-   width: 200px;
-   padding-left: 50px;
-   bottom: 100px;
+   height: 25vw;
+   width: 14vw;
+   padding-left: 3vw;
+   
    
  }
  .secpag1conteudo{
    text-align: center;
  }
+ .secpag1conteudo h1{
+   font-size: 3vw;
+ }
+ .secpag1conteudo p{
+   font-size: 1.7vw;
+   margin: 4vw 0vw 4vw 0vw;
+ }
  .cont2{
-   margin-right: 100px;
+   margin-right: 4vw;
+ }
+ .secpag1conteudo button{
+   width: 14vw;
+   height: 4vw;
+   border-radius: 2vw;
+   border: solid 1px ;
  }
 /*
  [data-anime="right"]{
