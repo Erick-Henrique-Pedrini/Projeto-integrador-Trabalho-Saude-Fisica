@@ -13,10 +13,12 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;     
-    background-color: #BC6BF2;
-    height: 80px;
+    background-color: rgba(188, 107, 242, 0.3);
+    height: 6%;
     width: 100%;
-    position: relative;
+    position: fixed;
+    z-index: 3;
+    
  }
  .nav-left {
     display: flex;
@@ -109,7 +111,7 @@
    padding-bottom: 8vw;
    display: flex;
    justify-content: space-between;
-   background-color: #BC6BF2;
+   background-color: #5D3D73;
    position: relative;
    z-index: 2;
    bottom: 25vw;
@@ -143,10 +145,10 @@
    border-radius: 2vw;
    border: solid 1px ;
  }
-/*
+
  [data-anime="right"]{
-    opacity: 1;
-    transform: translateX(100px);
+    opacity: 0;
+    transform: translateX(4vw);
     transition: 1s;
  }
  [data-anime="right"].animation{
