@@ -30,10 +30,8 @@
     flex-direction: row;
     margin-top: 40px;
     margin-right: 40px;
-   
- 
- 
  }
+ 
  .nav-left ul li{
     display: flex;
     flex-direction: row;
@@ -104,7 +102,11 @@
    display: block;
    position: relative;
    z-index: 1;
+  
  }
+ /*
+  sec 1
+ */
  .secpag1conteudo{
    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
    padding-top: 15vw;
@@ -114,7 +116,7 @@
    background-color: #5D3D73;
    position: relative;
    z-index: 2;
-   bottom: 25vw;
+   bottom: 20vw;
   overflow: hidden;
  }
  .secpag1conteudo img{
@@ -131,10 +133,16 @@
  }
  .secpag1conteudo h1{
    font-size: 3vw;
+   color: white;
+   background-image: linear-gradient(to bottom, #F27C38, white);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
  }
  .secpag1conteudo p{
    font-size: 1.7vw;
    margin: 4vw 0vw 4vw 0vw;
+   color: white;
  }
  .cont2{
    margin-right: 4vw;
