@@ -148,10 +148,19 @@
    margin-right: 4vw;
  }
  .secpag1conteudo button{
-   width: 14vw;
+   width: 40%;
    height: 4vw;
    border-radius: 2vw;
-   border: solid 1px ;
+   border: solid 3px white ;
+   background-image: linear-gradient(to right,#F27C38,#BC6BF2);
+   color:white ;
+   transition: .1s ease-in-out;
+   box-shadow: 2px 2px 10px black;
+ }
+ .secpag1conteudo button:hover{
+   transform: scale(107%);
+   transition: .1s;
+   cursor: pointer;
  }
 
  [data-anime="right"]{
