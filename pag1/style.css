@@ -169,22 +169,60 @@
  }
 section.centro img.banner{
    position: relative;
-   top:-20vw;
+
    z-index: 3;
+   width: 100%;
 }
- [data-anime="right"]{
-    opacity: 0;
-    transform: translateX(4vw);
-    transition: 1s;
+
+ section.centro{
+   background-color: #5D3D73;
+   
  }
- [data-anime="right"].animation{
-    transition: 1s;
-    opacity: 1;
-    transform: translateX(0px);
+ section.centro div {
+   display: flex;
+   flex-direction:column ;
+ }
+ section.centro div div{
+   display: flex;
+   flex-direction: column;
+
+ }
+ section.centro div ul{
+   display: flex;
+   justify-content: space-evenly;
+ }
+ section.centro div ul li img{
+   width: 25vw;
+   height: 18vw;
+   border-radius:3vw;
+
+   margin: 0 0 4vw 0;
+ }
+ section.centro div ul li img:first-child{
+   opacity: 0.3;
+   
  }
  
+ section.centro{
+position: relative;
+   top: -20vw;
+   padding: 0 0 10vw 0;
+ }
+ section.centro div{
+   margin-top: 3vw;
+ }
+ section.centro h2{
+   color: white;
+   font-size: 2.5vw;
+   text-align: center;
 
+ }
+ section.centro p{
+   font-size: 1.8vw;
+   color: white;
+   margin: 4vw 4vw 5vw 6vw;
 
+ }
 ::-webkit-scrollbar{
    width: 8px;
    background-color:darkgray;
@@ -196,9 +234,27 @@ section.centro img.banner{
    padding: 1px;
    margin: 1px;
 }
+ [data-anime="right"]{
+    opacity: 0;
+    transform: translateX(4vw);
+    transition: 1s;
+ }
+ [data-anime="right"].animation{
+    transition: 1s;
+    opacity: 1;
+    transform: translateX(0px);
+ }
+ [data-anime="down"] {
+   opacity: 0;
+   transform: translateY(6vw);
+   transition: opacity 1.5s, transform 1.5s;
+}
 
-
-
+[data-anime="down"].animation2 {
+   opacity: 1;
+   transform: translateY(0);
+   transition: 1.5s;
+}
 
 /* Color Theme Swatches in Hex */
 .paleta-roxa-e-laranja-1-hex { color: #D95970; }
