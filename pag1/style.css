@@ -223,6 +223,17 @@ position: relative;
    margin: 4vw 4vw 5vw 6vw;
 
  }
+ section.last{
+   display: flex;
+   background-color: #BC6BF2;
+   position: relative;
+   top: -20vw;
+   padding: 10vw 0vw 10vw 0 ;
+ }
+ section.last {
+   justify-content: center;
+ }
+ 
 ::-webkit-scrollbar{
    width: 8px;
    background-color:darkgray;
