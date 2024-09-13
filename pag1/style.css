@@ -4,10 +4,20 @@
     padding: 0;
     list-style: none;
     font-size: calc(8px + 1vw);
+ 
  }
  a{
     text-decoration: none;
     color: aliceblue;
+ }
+ h2{
+  overflow-x: hidden;
+ }
+ p{
+  overflow-x: hidden;
+ }
+ button{
+  overflow-x: hidden;
  }
  nav{
     display: flex;
@@ -228,15 +238,79 @@ section.centro img.banner{
 
  }
  section.last{
+  padding: 40vw 0 0vw 0;
+  position: relative;
+  top: -20vw;
+  background-color: #BC6BF2;
+  flex-wrap: wrap;
+  height: 30vw;
+  overflow: hidden;
+ }
+ section.last div {
+  display: flex;
+  justify-content: center;
+  bottom: 33vw;
+  position: relative;
+ }
+ section.last h2.a{
+  font-size: 6vw;
+  background-image: linear-gradient(to bottom, #F27C38, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ section.last ul{
    display: flex;
-   background-color: #BC6BF2;
+    margin: 0vw 0 0vw 0;
    position: relative;
-   top: -20vw;
-   padding: 10vw 0vw 10vw 0 ;
+   flex-wrap: wrap; 
  }
- section.last {
-   justify-content: center;
+ section.last ul li{
+  display: flex;
+  bottom: 27vw;
+  position: relative;
+
+}
+ section.last ul li.exer{
+  position: relative;
+  left: 5vw;
+  z-index: 3;
  }
+ section.last ul li.ali{
+  position: relative;
+  z-index: 2;
+  bottom: 65vw;
+  left: 25vw;
+  
+ }
+ section.last ul li.exer h2{
+  font-size: 5vw;
+  opacity: 0.7;
+  position: relative;
+  z-index: 3;
+  top: 3vw;
+  right: 60vw;
+  color: rgb(0, 0, 0);
+}
+  section.last ul li.ali h2{
+  font-size: 5vw;
+  position: relative;
+  z-index: 3;
+  top: 32vw;
+  right:45vw;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+ }
+ section.last img{
+  height: 40vw; 
+  width: 70vw;
+ }
+ section.last{
+  overflow-x: hidden;
+
+ }
+
  
 ::-webkit-scrollbar{
    width: 8px;
@@ -249,6 +323,7 @@ section.centro img.banner{
    padding: 1px;
    margin: 1px;
 }
+
  [data-anime="right"]{
     opacity: 0;
     transform: translateX(4vw);
