@@ -345,7 +345,27 @@ section.centro img.banner{
    transform: translateY(0);
    transition: 1s;
 }
+[data-anime="LW"]{
+  opacity: 0;
+  transform: translate3d(-4vw, -4vw, 0vw);
+  transition: 1s;
 
+}
+[data-anime="LW"].animation3{
+  opacity: 1;
+  transform: translate3d(0vw, 0vw, 0vw);
+  transition: 1s
+}
+[data-anime="RU"]{
+  opacity: 1;
+  transform: translate3d(4vw, 4vw, 0vw);
+  transition: 1s;
+}
+[data-anime="RU"].animation4{
+  opacity: 1;
+  transform: translate3d(0vw, 0vw, 0vw);
+  transition: 1s;
+}
 /* Color Theme Swatches in Hex */
 .paleta-roxa-e-laranja-1-hex { color: #D95970; }
 .paleta-roxa-e-laranja-2-hex { color: #BC6BF2; }
