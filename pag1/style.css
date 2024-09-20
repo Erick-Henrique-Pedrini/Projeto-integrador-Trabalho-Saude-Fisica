@@ -241,7 +241,7 @@ section.centro img.banner{
   padding: 40vw 0 0vw 0;
   position: relative;
   top: -20vw;
-  background-color: #BC6BF2;
+  background-color: #281138;
   flex-wrap: wrap;
   height: 30vw;
   overflow: hidden;
@@ -313,6 +313,7 @@ section.centro img.banner{
  }
 footer{
   background-color: #272727;
+ 
 }
 footer ul{
   display: flex;
@@ -321,12 +322,12 @@ footer ul{
 }
 
 footer li img{
-  width: 5vw;
-  height: 5vw;
+  width: 3vw;
+  height: 3vw;
 }
 footer li img.logo{
-  width: 10vw;
-  height: 10vw;
+  width: 8vw;
+  height: 8vw;
 }
 footer p{
   color: white;
@@ -388,7 +389,7 @@ footer p{
  
 }
 section.last ul li.exer h2.animation3{
-  color: rgb(0, 0, 0)
+  color:   rgb(0, 0, 0)
 }
 section.last ul li.ali h2.animation4{
   color: white

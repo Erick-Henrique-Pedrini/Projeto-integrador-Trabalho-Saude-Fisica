@@ -31,7 +31,7 @@ function animeScroll2() {
     });
 }
 function animeScroll3() {
-    const windowTop3 = window.pageYOffset + -3000;
+    const windowTop3 = window.pageYOffset + -3200;
     console.log("Window Top for Down:", windowTop3); 
     targetsLW.forEach(function(element) {
         console.log("Left Down Element:", element); 
@@ -43,7 +43,7 @@ function animeScroll3() {
     });
 }
 function animeScroll4() {
-    const windowTop4 = window.pageYOffset + -2800;
+    const windowTop4 = window.pageYOffset + -3000;
     console.log("Window Top for Down:", windowTop4); 
     targetsRU.forEach(function(element) {
         console.log("Right Up Element:", element); 
