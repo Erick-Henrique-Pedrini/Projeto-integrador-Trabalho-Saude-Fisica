@@ -1,54 +1,111 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    font-size: calc(15px + 1vw);
+    border: 0;
+    margin: 0;
+    padding: 0;
     list-style: none;
-}
+    font-size: calc(8px + 1vw);
+ 
+ }
+ a{
+    text-decoration: none;
+    color: aliceblue;
+ }
+ h2{
+  overflow-x: hidden;
+ }
+ p{
+  overflow-x: hidden;
+ }
+ button{
+  overflow-x: hidden;
+ }
+
+
+
 nav{
-display: flex;
-justify-content: center;
-justify-items: center;
-position: relative;
-
-}
-img.logo{
-height: 10vw;
-position: relative;
-z-index: 2;
-right: 10vw;
-bottom: 1vw;
-
-}
-ul.pags{
-display: flex;
-position: relative;
-right: 13vw;
-
-}
-ul.contas{
-display: flex;
-position: relative;
-left: 14vw;
-}
-ul.pags li{
-position: relative;
-padding: 10px;
-text-align: end;
-z-index: 2;
-}
-ul.contas li{
-position: relative;
-padding: 5px;
-padding-left: 10px;
-z-index: 2;
-
-}
-img{
-position: fixed;
-z-index: 1;
-height: 100%;
-width: 100%;
-bottom: 1vw;
-filter: blur(2px);
-filter: brightness(0.7);
-}
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;     
+    background-color: rgba(188, 107, 242, 0.3);
+    height: 6%;
+    width: 100%;
+    position: fixed;
+    z-index: 30;
+    
+ }
+ .nav-left {
+    display: flex;
+    align-self: center;
+    z-index: 2;
+ }
+ .nav-left ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-right: 40px;
+ }
+ 
+ .nav-left ul li{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    z-index: 2;
+    position: relative;
+ }
+ .nav-left ul li::after{
+    background-color: #5D3D73;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 20px;
+    height: 1px;
+    content: "";
+    transition: 0.5s;
+    opacity: 0.5;
+  
+ }
+ .nav-left ul li:hover::after{
+    background-color: #5D3D73;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 20px;
+    height: 80%;
+    content: "";
+    transition: 0.5s;
+    opacity: 0.5;
+  
+ }
+ .nav-right ul{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+    z-index: 2;
+ }
+ .nav-right ul li{
+    margin-right: 20px;
+  
+ }
+ nav button{
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    border: white solid 1px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+     transition: 1s;
+    z-index: 2;
+ }
+ nav button:hover{
+    transition: 1s;
+    color: black;
+    border: rgb(255, 255, 255) solid 1px;
+    background-color: white;
+ }
+ .logo{
+    display: flex;
+    margin-right: 60px;
+    height: 100px;
+    width: 120px;
+ }
