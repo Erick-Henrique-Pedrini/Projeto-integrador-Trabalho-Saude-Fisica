@@ -109,3 +109,18 @@ nav{
     height: 100px;
     width: 120px;
  }
+
+ /* perguntas */ 
+  main{
+   display: flex;
+  }
+  p.fala{
+   background-color: #D9D9D9;
+   padding: 4vw;
+   border-radius: 20vw 20vw 20vw 0px;
+   font-weight: 600;
+   font-size: 3vw;
+  }
+  main img{
+
+  }
