@@ -4,12 +4,19 @@
     padding: 0;
     list-style: none;
     font-size: calc(8px + 1vw);
- 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
  a{
     text-decoration: none;
     color: aliceblue;
+    
  }
+ a:hover{
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+
  h2{
   overflow-x: hidden;
  }
@@ -49,6 +56,14 @@
     z-index: 2;
     position: relative;
  }
+ .nav-left ul li:hover{
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+}
  .nav-left ul li::after{
     background-color: #5D3D73;
     position: absolute;
@@ -113,6 +128,9 @@
    position: relative;
    z-index: 1;
   
+ }
+ nav ul li p{
+  padding: 10vw;
  }
  /*
   sec 1
@@ -209,10 +227,7 @@ section.centro img.banner{
    margin: 0 0 4vw 0;
    
  }
- section.centro div ul li.bom img{
-   opacity: 0.5;
-   filter: saturate(100%);
- }
+ 
  section.centro{
    position: relative;
    top: -20vw;
@@ -287,12 +302,12 @@ section.centro img.banner{
  }
  section.last ul li.exer h2{
   font-size: 5vw;
-  opacity: 0.7;
+  opacity: 1;
   position: relative;
   z-index: 3;
   top: 3vw;
   right: 60vw;
-  color: transparent;
+  color: black;
 }
   section.last ul li.ali h2{
   font-size: 5vw;
@@ -300,8 +315,8 @@ section.centro img.banner{
   z-index: 3;
   top: 32vw;
   right:45vw;
-  color: transparent;
-  opacity: 0.7;
+  color:white;
+  opacity: 1;
  }
  section.last img{
   height: 40vw; 
@@ -365,35 +380,7 @@ footer p{
    transform: translateY(0);
    transition: 1s;
 }
-[data-anime="LW"]{
-  opacity: 0;
-  transform: translate3d(-4vw, -4vw, 0vw);
-  transition: 1s;
 
-}
-[data-anime="LW"].animation3{
-  opacity: 1;
-  color: black;
-  transform: translate3d(0vw, 0vw, 0vw);
-  transition: 1s
-}
-[data-anime="RU"]{
-  opacity: 0;
-  transform: translate3d(4vw, 4vw, 0vw);
-  transition: 1s;
-}
-[data-anime="RU"].animation4{
-  opacity: 1;
-  transform: translate3d(0vw, 0vw, 0vw);
-  transition: 1s;
- 
-}
-section.last ul li.exer h2.animation3{
-  color:   rgb(0, 0, 0)
-}
-section.last ul li.ali h2.animation4{
-  color: white
-}
 /* Color Theme Swatches in Hex */
 .paleta-roxa-e-laranja-1-hex { color: #D95970; }
 .paleta-roxa-e-laranja-2-hex { color: #BC6BF2; }
