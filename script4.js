@@ -131,4 +131,5 @@ document.addEventListener('DOMContentLoaded', function() {
         
         paragrafo.innerHTML = textoEsporte + '<br><br>' + textoLesao;
     }
+    
 });

@@ -318,16 +318,33 @@ section.centro img.banner{
   color:white;
   opacity: 1;
  }
+ section.last ul li.ali h2:hover{
+  font-size: 5vw;
+  position: relative;
+  z-index: 3;
+  top: 32vw;
+  right:45vw;
+  color:white;
+  opacity: 1;
+  cursor: pointer;
+  background-color: #281138;
+
+ }
  section.last img{
   height: 40vw; 
   width: 70vw;
+  
  }
  section.last{
   overflow-x: hidden;
 
  }
+ section.last img:hover{
+  cursor: pointer;
+ }
 footer{
   background-color: #272727;
+  box-shadow: #F28F38;
  
 }
 footer ul{

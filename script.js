@@ -30,31 +30,6 @@ function animeScroll2() {
         }
     });
 }
-function animeScroll3() {
-    const windowTop3 = window.pageYOffset + -3200;
-    console.log("Window Top for Down:", windowTop3); 
-    targetsLW.forEach(function(element) {
-        console.log("Left Down Element:", element); 
-        if (windowTop3 > element.offsetTop) {
-            element.classList.add("animation3");
-        } else {
-            element.classList.remove("animation3");
-        }
-    });
-}
-function animeScroll4() {
-    const windowTop4 = window.pageYOffset + -3000;
-    console.log("Window Top for Down:", windowTop4); 
-    targetsRU.forEach(function(element) {
-        console.log("Right Up Element:", element); 
-        if (windowTop4 > element.offsetTop) {
-            element.classList.add("animation4");
-        } else {
-            element.classList.remove("animation4");
-        }
-    });
-}
-
 window.addEventListener('scroll', function() {
     animeScroll();
     animeScroll2();
