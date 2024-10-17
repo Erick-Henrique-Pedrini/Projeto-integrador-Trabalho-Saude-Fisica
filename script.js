@@ -1,8 +1,7 @@
 
 const targetsRight = document.querySelectorAll('[data-anime="right"]');
 const targetsDown = document.querySelectorAll('[data-anime="down"]');
-const targetsLW = document.querySelectorAll('[data-anime="LW"]');
-const targetsRU = document.querySelectorAll('[data-anime="RU"]');
+
 
 function animeScroll() {
     const windowTop = window.pageYOffset + 170;

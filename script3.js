@@ -1,7 +1,5 @@
 const targetsRight = document.querySelectorAll('[data-anime="right"]');
-const targetsDown = document.querySelectorAll('[data-anime="down"]');
-const targetsLW = document.querySelectorAll('[data-anime="LW"]');
-const targetsRU = document.querySelectorAll('[data-anime="RU"]');
+const targetsRight2 = document.querySelectorAll('[data-anime="right2"]');
 
 function animeScroll() {
     const windowTop = window.pageYOffset + 170;
@@ -16,11 +14,24 @@ function animeScroll() {
     });
 }
 
+function animeScroll2() {
+    const windowTop2 = window.pageYOffset + +800;
+    console.log("Window Top:", windowTop2); 
+    targetsRight2.forEach(function(element) {
+        console.log("Right Element:", element); 
+        if (windowTop2 > element.offsetTop) {
+            element.classList.add("animation");
+        } else {
+            element.classList.remove("animation");
+        }
+    });
+}
+
+
 
 
 window.addEventListener('scroll', function() {
     animeScroll();
     animeScroll2();
-    animeScroll3() ;
-    animeScroll4();
+    
 });

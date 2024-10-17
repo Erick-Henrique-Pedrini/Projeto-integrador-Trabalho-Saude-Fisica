@@ -1,8 +1,6 @@
 const targetsRight = document.querySelectorAll('[data-anime="right"]');
 const targetsDown = document.querySelectorAll('[data-anime="down"]');
-const targetsLW = document.querySelectorAll('[data-anime="LW"]');
-const targetsRU = document.querySelectorAll('[data-anime="RU"]');
-
+const targetsLeft = document.querySelectorAll('[data-anime="left"]');
 function animeScroll() {
     const windowTop = window.pageYOffset + 170;
     console.log("Window Top:", windowTop); 
@@ -15,14 +13,36 @@ function animeScroll() {
         }
     });
 }
-
+function animeScroll2() {
+    const windowTop2 = window.pageYOffset + -1200;
+    console.log("Window Top for Down:", windowTop2); 
+    targetsDown.forEach(function(element) {
+        console.log("Down Element:", element); 
+        if (windowTop2 > element.offsetTop) {
+            element.classList.add("animation2");
+        } else {
+            element.classList.remove("animation2");
+        }
+    });
+}
+function animeScroll3() {
+    const windowTop3 = window.pageYOffset + -800;
+    console.log("Window Left to Right:", windowTop3); 
+    targetsLeft.forEach(function(element) {
+        console.log("Left:", element); 
+        if (windowTop3 > element.offsetTop) {
+            element.classList.add("animation3");
+        } else {
+            element.classList.remove("animation3");
+        }
+    });
+}
 
 
 window.addEventListener('scroll', function() {
     animeScroll();
     animeScroll2();
-    animeScroll3() ;
-    animeScroll4();
+    animeScroll3();
 });
 
 document.addEventListener('DOMContentLoaded', function() {

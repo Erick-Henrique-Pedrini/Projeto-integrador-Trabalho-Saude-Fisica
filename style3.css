@@ -263,7 +263,7 @@ img.fundo {
 }
 
 .conteudo ul.bene p {
-   font-size: 1.3vw;
+   font-size: 1.3rem;
    margin: 1vw 2vw 2vw 2vw;
    color: rgb(211, 201, 201);
 }
@@ -319,42 +319,4 @@ footer p {
    transition: 1s;
    opacity: 1;
    transform: translateX(0px);
-}
-
-[data-anime="down"] {
-   opacity: 0;
-   transform: translateY(3.3vw);
-   transition: 1.s, transform 1.5s;
-}
-
-[data-anime="down"].animation2 {
-   opacity: 1;
-   transform: translateY(0);
-   transition: 1s;
-}
-
-[data-anime="LW"] {
-   opacity: 0;
-   transform: translate3d(-4vw, -4vw, 0vw);
-   transition: 1s;
-
-}
-
-[data-anime="LW"].animation3 {
-   opacity: 1;
-   color: black;
-   transform: translate3d(0vw, 0vw, 0vw);
-   transition: 1s
-}
-
-[data-anime="RU"] {
-   opacity: 0;
-   transform: translate3d(4vw, 4vw, 0vw);
-   transition: 1s;
-}
-
-[data-anime="RU"].animation4 {
-   opacity: 1;
-   transform: translate3d(0vw, 0vw, 0vw);
-   transition: 1s;
 }
