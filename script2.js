@@ -15,7 +15,7 @@ const esporte = document.getElementsByName('exercicio');
 const lesao = document.getElementsByName('lesao');
 const btn = document.getElementById('button');
 
-btn.addEventListener('click', function() {
+btn.addEventListener('click', function(){
 
     if (altura.value === '' || peso.value === '' || nome.value === '') {
         alert('Por favor, preencha todos os campos obrigatórios.');
@@ -46,5 +46,5 @@ btn.addEventListener('click', function() {
     nome.value = "";
     peso.value = "";
     altura.value = "";
-    window.location.href = "http://127.0.0.1:3000/index4.html";
+    window.location.href = "http://127.0.0.1:3000/Exercicios.html";
 });
