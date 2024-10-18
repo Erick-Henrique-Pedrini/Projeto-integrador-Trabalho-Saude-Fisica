@@ -239,7 +239,7 @@ ul.meioul p{
   background-color: #5D3D73;
   flex-direction: column;
   position: relative;
-  
+  margin-top: -30vw;
 }
 .pos h2{
   text-align: center;
