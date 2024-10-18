@@ -397,10 +397,10 @@ footer p{
    transform: translateY(0);
    transition: 1s;
 }
-  /* Classe para desabilitar o scroll */
-  .no-scroll {
+ 
+.no-scroll {
     overflow: hidden;
-    height: 100%; /* Impede o scroll vertical */
+    height: 100%; 
 }
 
 
@@ -410,8 +410,8 @@ footer p{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.589); /* Fundo cinza com transparência */
-  z-index: 999; /* Abaixo do popup */
+  background-color: rgba(0, 0, 0, 0.589); 
+  z-index: 999; 
 }
 
 

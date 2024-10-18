@@ -48,6 +48,7 @@ window.addEventListener('scroll', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const titulo = document.getElementById('titulo');
     const paragrafo = document.getElementById('texto');
+    
 
     const esporteSelecionado = localStorage.getItem('esporteSelecionado');
     const lesaoSelecionada = localStorage.getItem('lesaoSelecionada');
