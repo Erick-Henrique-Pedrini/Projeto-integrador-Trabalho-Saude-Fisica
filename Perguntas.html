@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,86 +9,85 @@
   <script src="redirecionar.js" defer></script>
 
 </head>
+
 <body>
   <header>
     <nav>
-       <div class="nav-left">
-            <img class="logo" src="src/logo roxa.png" alt="Logo HealthUp" id="logo">
-            <ul class="pags">
-              <li onclick="inicio()"><a>Inicio</a></li>
-              <li onclick="Exercicios()"><a>Exercicios</a></li>
-              <li onclick="Alimentacao()"><a>Alimentação</a></li>
-              <li onclick="Equipe()"><a>NossaEquipe</a></li>
-            </ul>
-        </div>
-    </nav>
-      
-      <div>
-         <img class="fundo" src="src/fundo pag 2.png" alt="Fundo levemente roxo com pessoas andando na rua">
+      <div class="nav-left">
+        <img class="logo" src="src/Logo-Roxa.png" alt="Logo HealthUp" id="logo">
+        <ul class="pags">
+          <li onclick="inicio()"><a>Inicio</a></li>
+          <li onclick="Exercicios()"><a>Exercicios</a></li>
+          <li onclick="Alimentacao()"><a>Alimentação</a></li>
+          <li onclick="Equipe()"><a>NossaEquipe</a></li>
+        </ul>
       </div>
-    </header>
+    </nav>
+
+    <div>
+      <img class="fundo" src="src/fundo pag 2.png" alt="Fundo levemente roxo com pessoas andando na rua">
+    </div>
+  </header>
   <main>
     <div>
       <img class="ernestro" src="src/ernestro2.png" alt="Mascote da HealthUp">
     </div>
-    <div class="Container"> 
+    <div class="Container">
       <p><img src="src/ernestro questions.png" alt=""></p>
       <div class="perguntas">
-      <label for="nome" class="label">Nome</label>
-      <input type="text" placeholder="..." id="nome" name="nome">
-      </p>
-      <label for="peso" class="label" id="">Peso</label>
-      <input type="number" id="peso" name="peso" placeholder="Kg">
-      </p>
+        <label for="nome" class="label">Nome</label>
+        <input type="text" placeholder="..." id="nome" name="nome">
+        <label for="peso" class="label" id="">Peso</label>
+        <input type="number" id="peso" name="peso" placeholder="Kg">
+        <p>
+          <label for="altura" class="label">Altura</label>
+          <input type="number" id="altura" name="altura" placeholder="Cm">
+        </p>
+        <p>
+          <label class="label" for="sexo">Sexo</label>
+          <select name="sexo" id="sexo">
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+          </select>
+        </p>
+        <p>
+        <p>
+          <legend>Tem alguma lesão?</legend>
+          <label><input type="radio" name="lesao" value="nao">Não</label>
+          <label><input type="radio" name="lesao" value="perna">Membros inferiores</label>
+          <label><input type="radio" name="lesao" value="bracos">Membros superiores </label>
+        </p>
+        <p>
+          <legend>Qual exercício gostaria de adicionar à sua rotina?</legend>
+          <label><input type="radio" name="exercicio" value="ciclismo">Ciclismo</label>
+          <label><input type="radio" name="exercicio" value="natacao">Natação</label>
+          <label><input type="radio" name="exercicio" value="caminhada">Caminhada</label>
+          <label><input type="radio" name="exercicio" value="volei">Vôlei</label>
+          <label><input type="radio" name="exercicio" value="futebol">Futebol</label>
+          <label><input type="radio" name="exercicio" value="basquete">Basquete</label>
+        </p>
+      </div>
       <p>
-      <label for="altura" class="label">Altura</label>
-      <input type="number" id="altura" name="altura" placeholder="Cm">
+        <button class="Button" id="button">Enviar</button>
       </p>
-      <p>
-      <label class="label"  for="sexo">Sexo</label>
-      <select name="sexo" id="sexo">
-        <option value="1">Masculino</option>
-        <option value="2">Feminino</option>
-      </select>
-      </p>
-      <p>
-       
-      <p>
-        <legend>Tem alguma lesão?</legend>
-        <label><input  type="radio" name="lesao" value="nao">Não</label>
-        <label><input type="radio" name="lesao" value="perna">Membros inferiores</label>
-        <label><input type="radio" name="lesao" value="bracos">Membros superiores </label>
-      </p>
-      <p>
-        <legend>Qual exercício gostaria de adicionar à sua rotina?</legend>
-        <label><input type="radio" name="exercicio" value="ciclismo">Ciclismo</label>
-        <label><input type="radio" name="exercicio" value="natacao">Natação</label>
-        <label><input type="radio" name="exercicio" value="caminhada">Caminhada</label>
-        <label><input type="radio" name="exercicio" value="volei">Vôlei</label>
-        <label><input type="radio" name="exercicio" value="futebol">Futebol</label>
-        <label><input type="radio" name="exercicio" value="basquete">Basquete</label>
-      </p> </div>
-      <p>
-      <button class="Button" id="button">Enviar</button>
-      </p>
-   
     </div>
   </main>
   <footer>
     <ul>
-        <li>
-            <img src="src/logo cinza.png" alt="logo" class="logo">
-        </li>
-        <li>
-            <p>&copy; 2024 HealthUp</p>
-        </li>
-        <li>
-            <img src="src/instagram.png" alt="instagram">
-            <img src="src/twitter(x).png" alt="Twitter(x)">
-            <img src="src/facebook.png" alt="facebook">
-        </li>
+      <li>
+        <img src="src/Logo-Cinza.png" alt="logo" class="logo">
+      </li>
+      <li>
+        <p>&copy; 2024 HealthUp</p>
+      </li>
+      <li>
+        <img src="src/instagram.png" alt="instagram">
+        <img src="src/twitter(x).png" alt="Twitter(x)">
+        <img src="src/facebook.png" alt="facebook">
+      </li>
     </ul>
-</footer>
+  </footer>
 </body>
+
 </html>
 <script src="script2.js"></script>
