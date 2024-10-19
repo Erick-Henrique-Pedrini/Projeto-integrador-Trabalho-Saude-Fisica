@@ -1,132 +1,4 @@
-*{
-    border: 0;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: calc(8px + 1vw);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- }
- a{
-    text-decoration: none;
-    color: aliceblue;
- }
- a:hover{
-   text-decoration: none;
-   color: aliceblue;
-   cursor: pointer;
- }
- h2{
-  overflow-x: hidden;
- }
- p{
-  overflow-x: hidden;
- }
- button{
-  overflow-x: hidden;
- }
- nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;     
-    background-color: rgba(188, 107, 242, 0.3);
-    height: 6%;
-    width: 100%;
-    position: fixed;
-    z-index: 30;
-    
- }
- .nav-left {
-    display: flex;
-    align-self: center;
-    z-index: 2;
- }
- .nav-left ul{
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    margin-right: 40px;
- }
- 
- .nav-left ul li{
-    display: flex;
-    flex-direction: row;
-    margin-right: 10px;
-    z-index: 2;
-    position: relative;
- }
- .nav-left ul li:hover{
-   display: flex;
-   flex-direction: row;
-   margin-right: 10px;
-   z-index: 2;
-   position: relative;
-   cursor: pointer;
- }
- .nav-left ul li::after{
-    background-color: #5D3D73;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 20px;
-    height: 1px;
-    content: "";
-    transition: 0.5s;
-    opacity: 0.5;
-  
- }
- .nav-left ul li:hover::after{
-    background-color: #5D3D73;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 20px;
-    height: 80%;
-    content: "";
-    transition: 0.5s;
-    opacity: 0.5;
-  
- }
- .nav-right ul{
-    display: flex;
-    margin-top: 20px;
-    margin-right: 40px;
-    z-index: 2;
- }
- .nav-right ul li{
-    margin-right: 20px;
-  
- }
- nav button{
-    width: 120px;
-    height: 60px;
-    border-radius: 20px;
-    border: white solid 1px;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-     transition: 1s;
-    z-index: 2;
- }
- nav button:hover{
-    transition: 1s;
-    color: black;
-    border: rgb(255, 255, 255) solid 1px;
-    background-color: white;
- }
- .logo{
-    display: flex;
-    margin-right: 60px;
-    height: 100px;
-    width: 120px;
- }
- img.fundo{
-   width: 100%;
-   height: 100%;
-   display: block;
-   position: relative;
-   z-index: 1;
-  
- }
+
  /*
   sec 1
  */
@@ -142,18 +14,19 @@
    bottom: 20vw;
   overflow: hidden;
  }
+ 
  .secpag1conteudo img{
    z-index: 1;
    position: relative;
    height: 25vw;
    width: 14vw;
    padding-left: 3vw;
-   
-   
  }
+
  .secpag1conteudo{
    text-align: center;
  }
+
  .secpag1conteudo h1{
    font-size: 3vw;
    color: white;
@@ -167,9 +40,11 @@
    margin: 4vw 0vw 4vw 0vw;
    color: white;
  }
+
  .cont2{
    margin-right: 4vw;
  }
+
  .secpag1conteudo button{
    width: 40%;
    height: 4vw;
@@ -180,11 +55,13 @@
    transition: .1s ease-in-out;
    box-shadow: 2px 2px 10px black;
  }
+
  .secpag1conteudo button:hover{
    transform: scale(107%);
    transition: .1s;
    cursor: pointer;
  }
+
  section.meio{
     position: relative;
     bottom: 20.1vw;
@@ -193,6 +70,7 @@
     display: flex;
     justify-content: center
  }
+
  section.meio div{
     display: flex;
     flex-direction: column;
@@ -200,64 +78,41 @@
     width: 80vw;
     background-color: #794c97;
     border-radius: 2vw;
- 
-
  }
+
  section.meio div ul{
     display: flex;
     align-items: center;
  }
+
  img.arthur{
     margin: 0 2vw 0 3.7vw ; 
  }
+
  img.murilo{
     margin: 0 0 0 -1.3vw;
  }
+
  li.pm{
     margin: 0vw 2.7vw 0vw 0vw;
  }
+
  img.ernestro{
     margin: 0 5vw 0 3.6vw;
  }
+
  img.erick{
     margin: 0 0 0 4vw;
  }
+
  img.gabi{
     margin: 0 0 0 3.7vw;
  }
+
  ul li{
     margin: -2vw 0 0 0;
  }
+
 ul.li1{
     margin-top: 2vw;
 }
-
-.overlay {
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0, 0, 0, 0.589);
-   z-index: 999; 
-}
-
-
-.popup {
-   position: fixed;
-   top: 50%;
-   left: 50%; 
-   transform: translate(-50%, -50%); 
-   background-color: white; 
-   border: 1px solid black;
-   padding: 20px; 
-   z-index: 1000; 
-   border-radius: 20px;
-}
-
-.ok{
-   border: solid 2px rgb(0, 0, 0);
-   padding: 5px 10px 5px 10px;
-   margin-top: 1vw;
-   border-radius: 10px;
- }
