@@ -1,5 +1,5 @@
 function inicio() {
-    window.location.href = "http://127.0.0.1:3000/Index.html";
+    window.location.href = "index.html";
 }
 
 function Exercicios() {
@@ -16,7 +16,7 @@ function Exercicios() {
         const ok = document.createElement('button');
         ok.className = 'ok';
 
-        p.innerHTML = "OPS, parece que você não respondeu nossas perguntas<br>por favor responda para poder acessar essa página";
+        p.innerHTML = "OPS, parece que você não respondeu nossas perguntas,<br>por favor responda para poder acessar essa página";
         ok.innerHTML = "OK";
 
         PopUp.appendChild(p);
@@ -42,14 +42,19 @@ function Exercicios() {
             window.removeEventListener('wheel', Impedir)
             window.removeEventListener('touchmove', Impedir)
 
-            window.location.href = "http://127.0.0.1:3000/Perguntas.html";
+            window.location.href = "indexPerguntas.html";
         });
     } else {
-        window.location.href = "http://127.0.0.1:3000/Exercicios.html";
+        window.location.href = "indexExercicios.html";
     }
 }
 
-function Equipe() {
+
+function redirecionar(url){
+    window.location.href = url;
+}
+
+/*function Equipe() {
     window.location.href = "http://127.0.0.1:3000/NossaEquipe.html";
 }
 
@@ -57,5 +62,5 @@ function Alimentacao() {
     window.location.href = "http://127.0.0.1:3000/Alimentação.html";
 }
 function Perguntas(){
-    window.location.href = "http://127.0.0.1:3000/Perguntas.html";
-}
+    window.location.href = "http://127.0.0.1:3000/indexPerguntas.html";
+}*/
