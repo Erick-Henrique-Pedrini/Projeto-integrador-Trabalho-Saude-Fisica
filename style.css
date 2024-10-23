@@ -255,12 +255,12 @@ section.centro img.banner{
  section.last{
   padding: 40vw 0 0vw 0;
   position: relative;
-  top: -20vw;
+  margin-top: -20vw;
   background-color: #281138;
   flex-wrap: wrap;
   height: 30vw;
   overflow: hidden;
-  margin-bottom: -20vw;
+
  }
  section.last div {
   display: flex;
@@ -317,18 +317,6 @@ section.centro img.banner{
   right:45vw;
   color:white;
   opacity: 1;
- }
- section.last ul li.ali h2:hover{
-  font-size: 5vw;
-  position: relative;
-  z-index: 3;
-  top: 32vw;
-  right:45vw;
-  color:white;
-  opacity: 1;
-  cursor: pointer;
-  background-color: #281138;
-
  }
  section.last img{
   height: 40vw; 

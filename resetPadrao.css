@@ -132,3 +132,14 @@
  nav ul li p{
   padding: 10vw;
  }
+ ::-webkit-scrollbar{
+   width: 8px;
+   background-color:darkgray;
+
+}
+::-webkit-scrollbar-thumb{
+   border-radius: 15px;
+   background-color: #281138;
+   padding: 1px;
+   margin: 1px;
+}
