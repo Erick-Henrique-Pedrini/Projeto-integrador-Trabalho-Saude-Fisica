@@ -46,5 +46,5 @@ btn.addEventListener('click', function(){
     nome.value = "";
     peso.value = "";
     altura.value = "";
-    window.location.href = "http://127.0.0.1:3002/indexExercicios.html";
+    redirecionar('indexExercicios.html')
 });
