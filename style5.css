@@ -207,24 +207,12 @@
     display: flex;
     align-items: center;
  }
- img.arthur{
-    margin: 0 2vw 0 3.7vw ; 
+ul{
+   margin: 1.3vw 0 0 0 ;
  }
- img.murilo{
-    margin: 0 0 0 -1.3vw;
- }
- li.pm{
-    margin: 0vw 2.7vw 0vw 0vw;
- }
- img.ernestro{
-    margin: 0 5vw 0 3.6vw;
- }
- img.erick{
-    margin: 0 0 0 4vw;
- }
- img.gabi{
-    margin: 0 0 0 3.7vw;
- }
+ul li ul li p{
+   margin: 0 4vw 0 4vw;
+}
 .meio ul li{
     margin: -2vw 0 0 0;
  }
