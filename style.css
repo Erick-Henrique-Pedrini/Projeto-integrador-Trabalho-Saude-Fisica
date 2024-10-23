@@ -295,7 +295,7 @@ section.centro img.banner{
  }
  section.last ul li.ali{
   position: relative;
-  z-index: 2;
+  z-index: 4;
   bottom: 65vw;
   left: 25vw;
   
@@ -312,7 +312,7 @@ section.centro img.banner{
   section.last ul li.ali h2{
   font-size: 5vw;
   position: relative;
-  z-index: 3;
+  z-index: 4;
   top: 32vw;
   right:45vw;
   color:white;

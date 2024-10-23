@@ -6,6 +6,11 @@
     font-size: calc(8px + 1vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
+ html{
+  position: relative;
+  
+ }
+
  a{
     text-decoration: none;
     color: aliceblue;
@@ -139,7 +144,7 @@
    background-color: #5D3D73;
    position: relative;
    z-index: 2;
-   bottom: 20vw;
+   bottom: 22vw;
   overflow: hidden;
  }
  .secpag1conteudo img{
@@ -187,7 +192,7 @@
  }
  section.meio{
     position: relative;
-    bottom: 20.1vw;
+    bottom: 22.1vw;
     background-color: #5D3D73;
     height: 70vw;
     display: flex;
@@ -207,23 +212,23 @@
     display: flex;
     align-items: center;
  }
- div{
-   padding: 2vw 00vw;
+ .meio div{
+   padding: 3vw 0 0vw 0;
  }
  .meio img{
-   margin: 1vw 0 0.8vw 0;
+   margin: 1vw 0 1vw 0;
  }
 .meio ul{
    margin: 1.3vw 0 0 0 ;
  }
-ul li ul li p{
-   margin: 0vw 4vw 0vw 4vw;
+ .meio ul li ul li p{
+   margin: 0vw 4vw 0vw 7vw;
 }
 .meio ul li{
     margin: -2vw 0 0 0;
  }
 ul.li1{
-    margin-top: 2vw;
+    margin-top: 3vw;
 }
 
 .referencias{
