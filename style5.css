@@ -207,11 +207,17 @@
     display: flex;
     align-items: center;
  }
-ul{
+ div{
+   padding: 2vw 00vw;
+ }
+ .meio img{
+   margin: 1vw 0 0.8vw 0;
+ }
+.meio ul{
    margin: 1.3vw 0 0 0 ;
  }
 ul li ul li p{
-   margin: 0 4vw 0 4vw;
+   margin: 0vw 4vw 0vw 4vw;
 }
 .meio ul li{
     margin: -2vw 0 0 0;
