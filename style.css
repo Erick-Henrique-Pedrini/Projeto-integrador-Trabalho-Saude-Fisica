@@ -255,13 +255,12 @@ section.centro img.banner{
  section.last{
   padding: 40vw 0 0vw 0;
   position: relative;
-
+  top: -20vw;
   background-color: #281138;
   flex-wrap: wrap;
   height: 30vw;
   overflow: hidden;
-  margin-top: -20vw;
-  
+  margin-bottom: -20vw;
  }
  section.last div {
   display: flex;
@@ -346,8 +345,7 @@ section.centro img.banner{
 footer{
   background-color: #272727;
   box-shadow: #F28F38;
-  position: relative;
-  margin-bottom: 0vw;
+ 
 }
 footer ul{
   display: flex;

@@ -207,71 +207,31 @@
     display: flex;
     align-items: center;
  }
- section.meio ul li{
-    margin: -2vw 0 0 0;
- }
  img.arthur{
     margin: 0 2vw 0 3.7vw ; 
-    size: 100%;
  }
  img.murilo{
     margin: 0 0 0 -1.3vw;
-    size: 100%;
  }
  li.pm{
     margin: 0vw 2.7vw 0vw 0vw;
-    size: 100%;
  }
  img.ernestro{
     margin: 0 5vw 0 3.6vw;
-    size: 100%;
  }
  img.erick{
     margin: 0 0 0 4vw;
-    size: 100%;
  }
  img.gabi{
     margin: 0 0 0 3.7vw;
-    size: 100%;
  }
-
+ ul li{
+    margin: -2vw 0 0 0;
+ }
 ul.li1{
     margin-top: 2vw;
-    
 }
-.referencias{
-   background-color: #5D3D73;
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   padding: 6vw 0 6vw 0;
-   margin-top: -42vw;
-   z-index: 2;
-   position: relative;
-}
-.referencias ul{
-   display: flex;
-   text-align: center;
-   justify-content: center;
-   flex-direction: column;
-}
-.referencias h3{
-   text-align: center;
-   font-size: 1.3rem;
-   color: wheat;
-   margin: 1vw 0 1vw 0;
-}
-.referencias h2{
-   font-size: 2rem;
-   color: black;
-   text-align: center;
-   margin: 4vw 0 3vw;
-   font-weight: 100;
-}
-.referencias h1{
-   font-size: 2.3rem;  
-   margin: 2vw 0 2vw 0;
-}
+
 .overlay {
    position: fixed;
    top: 0;
@@ -281,29 +241,7 @@ ul.li1{
    background-color: rgba(0, 0, 0, 0.589);
    z-index: 999; 
 }
-footer{
-   background-color: #272727;
-   box-shadow: #F28F38;
-   position: relative;
-   margin-bottom: 0vw;
- }
- footer ul{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
- }
- 
- footer li img{
-   width: 3vw;
-   height: 3vw;
- }
- footer li img.logo{
-   width: 8vw;
-   height: 8vw;
- }
- footer p{
-   color: white;
- }
+
 
 .popup {
    position: fixed;
