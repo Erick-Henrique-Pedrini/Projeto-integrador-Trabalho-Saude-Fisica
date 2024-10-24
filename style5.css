@@ -213,7 +213,7 @@
     align-items: center;
  }
  .meio div{
-   padding: 3vw 0 0vw 0;
+   padding: 3vw 0 6vw 0;
  }
  .meio img{
    margin: 1vw 0 1vw 0;
@@ -222,11 +222,21 @@
    margin: 1.3vw 0 0 0 ;
  }
  .meio ul li ul li p{
-   margin: 0vw 4vw 0vw 7vw;
+  color: white;
+   margin: 0vw 4vw 0vw 3vw;
+}
+.meio ul li ul li p:first-child {
+  padding-bottom: 1vw;
+  color: white;
+  background-image: linear-gradient(to bottom, #F27C38, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .meio ul li{
     margin: -2vw 0 0 0;
  }
+
 ul.li1{
     margin-top: 3vw;
 }
@@ -255,12 +265,17 @@ ul.li1{
 }
 .referencias h2{
   font-size: 2rem;
-  color: black;
+  color: white;
+  background-image: linear-gradient(to bottom, #F27C38, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
   margin: 4vw 0 3vw;
   font-weight: 100;
 }
 .referencias h1{
+  color: white;
   font-size: 2.3rem;  
   margin: 2vw 0 2vw 0;
 }
