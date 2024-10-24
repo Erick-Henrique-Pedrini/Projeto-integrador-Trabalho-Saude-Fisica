@@ -11,11 +11,13 @@ a {
    text-decoration: none;
    color: aliceblue;
 }
-a:hover{
+
+a:hover {
    text-decoration: none;
    color: aliceblue;
    cursor: pointer;
- }
+}
+
 h2 {
    overflow-x: hidden;
 }
@@ -60,14 +62,16 @@ nav {
    z-index: 2;
    position: relative;
 }
-.nav-left ul li:hover{
+
+.nav-left ul li:hover {
    display: flex;
    flex-direction: row;
    margin-right: 10px;
    z-index: 2;
    position: relative;
    cursor: pointer;
- }
+}
+
 .nav-left ul li::after {
    background-color: #5D3D73;
    position: absolute;
@@ -179,6 +183,7 @@ img.fundo {
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+
 .secpag1conteudo h1.dia {
    font-size: 2vw;
    color: white;
@@ -193,57 +198,69 @@ img.fundo {
    margin: 4vw 0vw 4vw 0vw;
    color: white;
 }
-.new{
+
+
+
+.new {
    background-color: #5D3D73;
    position: relative;
    top: -20vw;
    padding: 5vw 0 5vw 0;
 }
-.new h4{
+
+.new h4 {
    color: rgb(227, 232, 236);
    margin: 2vw 0 3vw 0;
    text-align: center;
 }
-.new h3{
+
+.new h3 {
    color: rgb(227, 232, 236);
    text-align: center;
    margin: 0 0 5vw 0;
 }
-.new p{
+
+.new p {
    color: rgb(227, 232, 236);
    text-align: center;
 }
-.tituloMargin{
+
+.tituloMargin {
    margin-bottom: 3vw;
 }
-.new ul{
+
+.new ul {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
 }
-.new ul li ul{
+
+.new ul li ul {
    background-color: #f8cc9a;
    height: 24vw;
    width: 20vw;
-   padding:2vw 1.5vw 2vw 1.5;
+   padding: 2vw 1.5vw 2vw 1.5;
    display: flex;
    border-radius: 15px;
    margin: 1vw 0 0vw 1vw;
-;
+   ;
 
 }
-.new ul li ul h3{
+
+.new ul li ul h3 {
    font-size: 1.2rem;
    color: #000;
    text-align: center;
    margin: 2vw;
 }
-.new ul li ul p{
+
+.new ul li ul p {
    font-size: 0.9rem;
    color: #000;
    text-align: center;
 
 }
+
 .conteudo {
    background-color: #5D3D73;
    display: flex;
@@ -295,7 +312,7 @@ img.fundo {
    display: flex;
    flex-direction: column;
    align-items: center;
-   
+
 }
 
 .conteudo ul.bene li {
@@ -319,7 +336,26 @@ img.fundo {
    margin: 1vw 2vw 2vw 2vw;
    color: rgb(211, 201, 201);
 }
+section.video{
+   background-color: #5D3D73;
+   
+}
 
+.video h2 {
+   color: rgb(211, 201, 201);
+   text-align: center;
+   font-size: 1.5rem;
+   padding: 0 30vw 7vw 30vw;
+}
+video {
+   display: block;
+   visibility: visible;
+   width: 50%;
+   height: auto;
+   z-index: 10;
+   position: relative;
+   padding: 0 0 10vw 25vw;
+}
 .esp {
    text-align: end;
 }
@@ -372,12 +408,14 @@ footer p {
    opacity: 1;
    transform: translateX(0px);
 }
-[data-anime="left"]{
+
+[data-anime="left"] {
    opacity: 0;
    transform: translateX(4vw);
    transition: 1s;
 }
-[data-anime="left"].animation3{
+
+[data-anime="left"].animation3 {
    opacity: 1;
    transform: translateX(0vw);
    transition: 1s;
@@ -389,26 +427,26 @@ footer p {
    left: 0;
    width: 100%;
    height: 100%;
-   background-color: rgba(0, 0, 0, 0.589); 
-   z-index: 999; 
+   background-color: rgba(0, 0, 0, 0.589);
+   z-index: 999;
 }
 
 
 .popup {
    position: fixed;
    top: 50%;
-   left: 50%; 
-   transform: translate(-50%, -50%); 
-   background-color: white; 
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: white;
    border: 1px solid black;
-   padding: 20px; 
-   z-index: 1000; 
+   padding: 20px;
+   z-index: 1000;
    border-radius: 20px;
 }
 
-.ok{
+.ok {
    border: solid 2px rgb(0, 0, 0);
    padding: 5px 10px 5px 10px;
    margin-top: 1vw;
    border-radius: 10px;
- }
+}
