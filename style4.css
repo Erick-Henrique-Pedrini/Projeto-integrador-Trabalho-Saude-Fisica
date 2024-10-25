@@ -179,6 +179,14 @@ img.fundo {
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+.secpag1conteudo h2 {
+   font-size: 2vw;
+   color: white;
+   background-image: linear-gradient(to bottom, white, white);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
 .secpag1conteudo h1.dia {
    font-size: 2vw;
    color: white;
