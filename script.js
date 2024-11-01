@@ -35,3 +35,10 @@ window.addEventListener('scroll', function() {
     animeScroll3() ;
     animeScroll4();
 });
+
+document.addEventListener("keydown", function(event){
+    if(event.key === 'Backspace'){
+        localStorage.clear()
+        event.preventDefault()
+    }
+})

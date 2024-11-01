@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
                            '- Abdômen. <br><br>' +
                            '<strong>Como começar:</strong> <br>' +
                            'Inicie com percursos curtos e planos, com uma bicicleta adequada ao seu tamanho e nível de habilidade. Gradualmente, aumente a distância e a intensidade conforme seu corpo se adapta.';
-        } else if (esporteSelecionado === 'natacao') {
+        } else if (esporteSelecionado === 'natação') {
             textoEsporte = 'A natação é um dos esportes mais completos, proporcionando um excelente treino para o corpo todo, além de ser de baixo impacto. <br><br>' +
                            '<strong>Benefícios:</strong> <br>' +
                            '- Melhora a capacidade respiratória. <br>' +
