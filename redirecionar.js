@@ -54,13 +54,3 @@ function redirecionar(url){
     window.location.href = url;
 }
 
-/*function Equipe() {
-    window.location.href = "http://127.0.0.1:3000/NossaEquipe.html";
-}
-
-function Alimentacao() {
-    window.location.href = "http://127.0.0.1:3000/Alimentação.html";
-}
-function Perguntas(){
-    window.location.href = "http://127.0.0.1:3000/indexPerguntas.html";
-}*/
