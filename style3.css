@@ -184,7 +184,7 @@ img.fundo {
    -webkit-text-fill-color: transparent;
 }
 
-.secpag1conteudo h1.dia {
+.secpag1conteudo h2.dia {
    font-size: 2vw;
    color: white;
    background-image: linear-gradient(to bottom, white, white);
@@ -193,12 +193,19 @@ img.fundo {
    -webkit-text-fill-color: transparent;
 }
 
+p.escrita b {
+   font-size: 1.7vw;
+}
+
 .secpag1conteudo p {
-   font-size: 1.5vw;
+   font-size: 1.7vw;
    margin: 4vw 0vw 4vw 0vw;
    color: white;
 }
-
+.cont2 p{
+   font-size: 1.7vw;
+   padding: 0 6vw 0 6vw;
+  }
 
 
 .new {
@@ -224,7 +231,9 @@ img.fundo {
    color: rgb(227, 232, 236);
    text-align: center;
 }
-
+.new p.padding {
+   padding: 1.5vw 6vw 1.5vw 6vw;
+}
 .tituloMargin {
    margin-bottom: 3vw;
 }
@@ -239,7 +248,7 @@ img.fundo {
    background-color: #f8cc9a;
    height: 24vw;
    width: 20vw;
-   padding: 2vw 1.5vw 2vw 1.5;
+   padding: 2.5vw 2vw 2.5vw 2vw;
    display: flex;
    border-radius: 15px;
    margin: 1vw 0 0vw 1vw;
@@ -335,7 +344,10 @@ img.fundo {
    font-size: 1.3rem;
    margin: 1vw 2vw 2vw 2vw;
    color: rgb(211, 201, 201);
+   padding: 1vw 5vw 1vw 5vw;
 }
+
+
 section.video{
    background-color: #5D3D73;
    
@@ -344,7 +356,7 @@ section.video{
 .video h2 {
    color: rgb(211, 201, 201);
    text-align: center;
-   font-size: 1.5rem;
+   font-size: 1.7rem;
    padding: 0 30vw 7vw 30vw;
 }
 video {

@@ -160,7 +160,7 @@
    text-align: center;
  }
  .secpag1conteudo h1{
-   font-size: 3vw;
+   font-size: 5vw;
    color: white;
    background-image: linear-gradient(to bottom, #F27C38, white);
    background-clip: text;
@@ -172,8 +172,16 @@
    margin: 4vw 0vw 4vw 0vw;
    color: white;
  }
+
+ .secpag1conteudo b {
+  font-size: 1.7vw;
+ }
  .cont2{
    margin-right: 4vw;
+ }
+
+ .cont2 p{
+  padding: 0 6vw 0 6vw;
  }
  .secpag1conteudo button{
    width: 40%;

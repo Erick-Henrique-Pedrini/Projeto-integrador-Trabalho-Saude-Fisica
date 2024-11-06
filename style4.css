@@ -173,6 +173,7 @@ img.fundo {
 
 .secpag1conteudo h1.titulo {
    font-size: 5vw;
+   padding-bottom: 1vw;
    color: white;
    background-image: linear-gradient(to bottom, #F27C38, white);
    background-clip: text;
@@ -187,20 +188,15 @@ img.fundo {
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
-.secpag1conteudo h1.dia {
-   font-size: 2vw;
-   color: white;
-   background-image: linear-gradient(to bottom, white, white);
-   background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
 
 .secpag1conteudo p {
-   font-size: 1.5vw;
-   margin: 4vw 3vw 4vw 3vw;
+   font-size: 1.7vw;
+   margin: 4vw 0vw 4vw 3vw;
    color: white;
 }
+.cont2 p{
+   padding: 0 6vw 0 6vw;
+  }
 
 .conteudo {
    background-color: #5D3D73;
@@ -243,6 +239,14 @@ ul.meioul p{
   margin-top: 1vw;
   color: #000000;
 }
+a#LinkLegal{
+   color: #5D3D73;
+   text-decoration: underline;
+}
+span.ingles{
+   font-style: italic;
+}
+
 .pos{
   display: flex;
   background-color: #5D3D73;
@@ -281,13 +285,17 @@ ul.meioul p{
   border-radius: 15px;
   text-align: center;
   margin: 2vw 2vw 2vw 2vw;
-  padding: 3vw 2vw 0 2vw;
+  padding: 3vw 2vw 3vw 2vw;
   min-height: 28vw;
   width: 28vw;
   font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.pos svg {
+  width: 3vw;
+   
 }
 .pos ul li p{
 
